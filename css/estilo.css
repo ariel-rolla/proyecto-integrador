@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none !important; /* saca la barra de los link */
     font-family: 'Montserrat', sans-serif;
+
 }
 
 @keyframes entrada-por-la-derecha-escalado {
@@ -38,6 +39,10 @@
     display: flex;
     justify-content: center;
     box-shadow: 0px 0.1px 7px rgb(116, 115, 115);
+}
+
+.encabezadoImg320 {
+    display: none;
 }
 
 .barra{
@@ -294,8 +299,11 @@ footer button:hover{
 
 @media screen and (max-width: 320px) {
 /* iconos un par nomas,  */
-    .encabezado img{
-        height: 50px;
+    .encabezadoImgFull{
+        display: none;
+    }
+    .encabezadoImg320 {
+        display: block;
     }
 
     .imagenLogo{
