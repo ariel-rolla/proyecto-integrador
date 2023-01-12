@@ -6,7 +6,6 @@
     box-sizing: border-box;
     text-decoration: none !important; /* saca la barra de los link */
     font-family: 'Montserrat', sans-serif;
-
 }
 
 @keyframes entrada-por-la-derecha-escalado {
@@ -231,7 +230,7 @@ footer button:hover{
 }
 
 .imagenAfipContenedor img{
-    height: 90px;
+    width: 66px;
 }
 
 
@@ -350,7 +349,7 @@ footer button:hover{
     }
 
     .imagenAfipContenedor img{
-        height: 120px;
+        width: 88px;
     }
 
     .redesSeguinos h4{
